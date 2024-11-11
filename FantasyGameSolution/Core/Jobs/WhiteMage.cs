@@ -1,5 +1,6 @@
 ﻿using System;
 using Core.Models;
+using Core.Actions.DefensiveSpells;
 
 namespace Core.Jobs
 {
@@ -9,6 +10,10 @@ namespace Core.Jobs
 		{
 			Name = "White Mage";
 			Description = "White magic, the arcane art of succor, was conceived eras past that the world might know comfort. Alas, man began perverting its powers for self-gain, and by his wickedness brought about the Sixth Umbral catastrophe.";
+			Spells = new List<ISpell>
+			{
+				new Cure()
+			};
 		}
 	}
 }

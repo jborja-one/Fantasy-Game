@@ -7,6 +7,7 @@ namespace Core.Models
         public string Description { get; set; }
         public List<IAction> Abilities { get; set; }
         public List<IAction> Actions { get; set; }
+        public List<ISpell> Spells { get; set; }
 
         public Job(string name, string description)
         {
@@ -14,6 +15,7 @@ namespace Core.Models
             Description = description;
             Abilities = new List<IAction>();
             Actions = new List<IAction>();
+            Spells = new List<ISpell>();
         }
 
         //TODO is this needed?

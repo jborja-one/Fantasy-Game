@@ -2,11 +2,12 @@
 
 namespace Core.Actions.OffensiveSpells
 {
-	public class Fire : IAction
+	public class Fire : ISpell
 	{
 		public string Name { get; set; } = "Fire";
 		public string Description { get; set; } = "Deals 20 in fire damage";
 		public int Cooldown { get; set; } = 3;
+		public int CastTime { get; set; } = 3;
 		public int ManaCost { get; set; } = 10;
 		public int Potency { get; set; } = 20;
 		public int RequiredLevel { get; set; } = 1;
@@ -48,7 +49,7 @@ namespace Core.Actions.OffensiveSpells
 			}
 			else
 			{
-				Console.WriteLine($"{Name} cannot cast this spell.");
+				Console.WriteLine($"{Name} cannot be cast on {target.Name}.");
 				return 0;
 			}
 		}

@@ -10,7 +10,7 @@ namespace Core.Jobs
 		{
 			Name = "Black Mage";
 			Description = "In days long past, there existed an occult and arcane art known as black magic—a potent magic of pure destructive force born forth by a sorceress of unparalleled power.";
-			Actions = new List<IAction>
+			Spells = new List<ISpell>
 			{
 				new Fire()
 			};
