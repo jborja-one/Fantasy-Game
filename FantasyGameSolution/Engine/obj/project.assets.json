@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/borjas/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj",
+      "projectName": "Engine",
+      "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj",
+      "packagesPath": "/Users/borjas/.nuget/packages/",
+      "outputPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/borjas/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj": {
+              "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

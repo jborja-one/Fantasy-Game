@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Actions\" />
+    <None Remove="Actions\MeleeActions\" />
+    <None Remove="Actions\RangedActions\" />
+    <None Remove="Actions\PhysicalAbilities\" />
+    <None Remove="Actions\OffensiveSpells\" />
+    <None Remove="Actions\DefensiveSpells\" />
+    <None Remove="Actions\CasterAbilities\" />
+    <None Remove="Jobs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Actions\" />
+    <Folder Include="Actions\MeleeActions\" />
+    <Folder Include="Actions\RangedActions\" />
+    <Folder Include="Actions\PhysicalAbilities\" />
+    <Folder Include="Actions\OffensiveSpells\" />
+    <Folder Include="Actions\DefensiveSpells\" />
+    <Folder Include="Actions\CasterAbilities\" />
+    <Folder Include="Jobs\" />
+  </ItemGroup>
+</Project>

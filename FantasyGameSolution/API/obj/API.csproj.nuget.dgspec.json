@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/API.csproj",
+        "packagesPath": "/Users/borjas/.nuget/packages/",
+        "outputPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/borjas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj": {
+                "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj"
+              },
+              "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj": {
+                "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj",
+        "packagesPath": "/Users/borjas/.nuget/packages/",
+        "outputPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/borjas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj",
+        "projectName": "Engine",
+        "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/Engine.csproj",
+        "packagesPath": "/Users/borjas/.nuget/packages/",
+        "outputPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/borjas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj": {
+                "projectPath": "/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

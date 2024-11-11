@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Models/Job.cs">
+    <Files>
+      <File FileName="Core/Models/Job.cs" Line="31" Column="1" />
+      <File FileName="Core/Models/Character.cs" Line="36" Column="4" />
+      <File FileName="Core/Models/IAction.cs" Line="10" Column="23" />
+      <File FileName="Core/Actions/CasterAbilities/SwiftCast.cs" Line="12" Column="1" />
+      <File FileName="Core/Actions/CasterAbilities/ICasterAbility.cs" Line="1" Column="1" />
+      <File FileName="Core/Models/Player.cs" Line="21" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FantasyGameSolution" expanded="True">
+            <Node name="Core">
+              <Node name="Actions" expanded="True">
+                <Node name="CasterAbilities" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Job.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Engine FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
