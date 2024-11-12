@@ -1,5 +1,5 @@
-﻿using System;
-using Core.Models;
+﻿using Core.Models;
+using Core.Interfaces;
 using Core.Actions.MeleeActions;
 
 namespace Core.Jobs

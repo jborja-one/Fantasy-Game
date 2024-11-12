@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Core.Interfaces;
+
 namespace Core.Models
 {
     public abstract class Job
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public List<IAction> Abilities { get; set; }
+        public List<IAbility> Abilities { get; set; }
         public List<IAction> Actions { get; set; }
         public List<ISpell> Spells { get; set; }
 
@@ -13,7 +14,7 @@ namespace Core.Models
         {
             Name = name;
             Description = description;
-            Abilities = new List<IAction>();
+            Abilities = new List<IAbility>();
             Actions = new List<IAction>();
             Spells = new List<ISpell>();
         }

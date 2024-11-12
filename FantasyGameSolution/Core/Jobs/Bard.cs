@@ -1,6 +1,6 @@
-﻿using System;
-using Core.Models;
+﻿using Core.Models;
 using Core.Actions.RangedActions;
+using Core.Interfaces;
 
 namespace Core.Jobs
 {

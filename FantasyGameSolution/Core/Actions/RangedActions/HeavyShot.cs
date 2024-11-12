@@ -1,5 +1,5 @@
-﻿using System;
-using Core.Models;
+﻿using Core.Models;
+using Core.Interfaces;
 
 namespace Core.Actions.RangedActions
 {
@@ -32,7 +32,7 @@ namespace Core.Actions.RangedActions
             {
                 Console.WriteLine($"{character.Name} does not mee the required level to cast {Name}");
                 return false;
-            }
+            } 
 
             return true;
         }

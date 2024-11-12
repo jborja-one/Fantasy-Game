@@ -1,7 +1,5 @@
-﻿using System;
-using Core.Models;
-using Core.Actions.DefensiveSpells;
-using Core.Actions.OffensiveSpells;
+﻿using Core.Models;
+using Core.Interfaces;
 
 namespace Core.Actions.CasterAbilities
 {

@@ -1,6 +1,7 @@
-﻿using System;
-using Core.Models;
+﻿using Core.Models;
+using Core.Interfaces;
 using Core.Actions.OffensiveSpells;
+using Core.Actions.CasterAbilities;
 
 namespace Core.Jobs
 {
@@ -12,9 +13,12 @@ namespace Core.Jobs
 			Description = "In days long past, there existed an occult and arcane art known as black magic—a potent magic of pure destructive force born forth by a sorceress of unparalleled power.";
 			Spells = new List<ISpell>
 			{
-				new Fire()
+                new Fire()
 			};
-
+			Abilities = new List<IAbility>
+			{
+				new SwiftCast()
+			};
 		}
 	}
 }

@@ -1,5 +1,7 @@
-﻿using System;
-namespace Core.Models
+﻿using Core.Models;
+
+namespace Core.Interfaces
+
 {
 	public interface IAbility
 	{
