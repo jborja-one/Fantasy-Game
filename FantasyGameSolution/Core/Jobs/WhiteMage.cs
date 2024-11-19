@@ -1,8 +1,7 @@
 ﻿using System;
 using Core.Models;
 using Core.Actions.DefensiveSpells;
-
-namespace Core.Jobs
+using Core.Interfaces;namespace Core.Jobs
 {
 	public class WhiteMage : Job
 	{

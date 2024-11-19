@@ -1,6 +1,7 @@
 ﻿using Core.Models;
 using Core.Interfaces;
 using Core.Actions.MeleeActions;
+using Core.Actions.PhysicalAbilities;
 
 namespace Core.Jobs
 {
@@ -13,6 +14,9 @@ namespace Core.Jobs
 			Actions = new List<IAction>
 			{
 				new HeavySwing()
+			};
+			Abilities = new List<IAbility>			{
+				new Rampart()
 			};
 		}
 	}

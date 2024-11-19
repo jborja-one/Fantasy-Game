@@ -1,33 +1,49 @@
 ﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
-  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Engine FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Models/IAbility.cs">
+  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Summoner.cs">
     <Files>
-      <File FileName="Core/Models/Character.cs" Line="9" Column="13" />
-      <File FileName="Core/Models/IAction.cs" Line="7" Column="29" />
-      <File FileName="Core/Models/ISpell.cs" Line="11" Column="29" />
-      <File FileName="Core/Models/IAbility.cs" Line="17" Column="1" />
-      <File FileName="Core/Actions/RangedActions/HeavyShot.cs" Line="54" Column="2" />
-      <File FileName="Core/Jobs/Bard.cs" Line="16" Column="6" />
-      <File FileName="Core/Actions/MeleeActions/HeavySwing.cs" Line="40" Column="1" NotebookId="1" />
-      <File FileName="Core/Jobs/BlackMage.cs" Line="22" Column="1" NotebookId="1" />
-      <File FileName="Core/Models/Job.cs" Line="10" Column="47" NotebookId="1" />
-      <File FileName="Core/Jobs/Warrior.cs" Line="18" Column="3" NotebookId="1" />
-      <File FileName="Core/Jobs/WhiteMage.cs" Line="21" Column="1" NotebookId="1" />
-      <File FileName="Core/Actions/DefensiveSpells/Cure.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Engine/GameSessionService.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="API/Controllers/GameController.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="API/Controllers/PlayerController.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="API/Program.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Core/Actions/CasterAbilities/SwiftCast.cs" />
+      <File FileName="Core/Actions/DefensiveSpells/Cure.cs" />
+      <File FileName="Core/Actions/MeleeActions/HeavySwing.cs" />
+      <File FileName="Core/Actions/OffensiveSpells/Fire.cs" Line="58" Column="2" />
+      <File FileName="Core/Actions/PhysicalAbilities/Rampart.cs" />
+      <File FileName="Core/Actions/RangedActions/HeavyShot.cs" Line="35" Column="15" />
+      <File FileName="Core/Models/Job.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/Bard.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/BlackMage.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/Monk.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/Warrior.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/WhiteMage.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/Summoner.cs" Line="12" Column="260" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FantasyGameSolution" selected="True">
+          <Node name="FantasyGameSolution">
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>
-            <Node name="Core" expanded="True">
+            <Node name="Core">
+              <Node name="Actions" expanded="True">
+                <Node name="CasterAbilities" expanded="True" />
+                <Node name="DefensiveSpells" expanded="True" />
+                <Node name="MeleeActions" expanded="True" />
+                <Node name="OffensiveSpells" expanded="True" />
+                <Node name="PhysicalAbilities" expanded="True" />
+                <Node name="RangedActions" expanded="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Jobs" expanded="True">
+                <Node name="Summoner.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="Engine" expanded="True" />
@@ -36,9 +52,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Engine FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
