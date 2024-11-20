@@ -1,28 +1,24 @@
 ﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Engine FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Summoner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Bard.cs">
     <Files>
       <File FileName="Core/Actions/CasterAbilities/SwiftCast.cs" />
       <File FileName="Core/Actions/DefensiveSpells/Cure.cs" />
       <File FileName="Core/Actions/MeleeActions/HeavySwing.cs" />
-      <File FileName="Core/Actions/OffensiveSpells/Fire.cs" Line="58" Column="2" />
+      <File FileName="Core/Actions/OffensiveSpells/Fire.cs" />
       <File FileName="Core/Actions/PhysicalAbilities/Rampart.cs" />
       <File FileName="Core/Actions/RangedActions/HeavyShot.cs" Line="35" Column="15" />
       <File FileName="Core/Models/Job.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Bard.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/BlackMage.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Monk.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Warrior.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/WhiteMage.cs" NotebookId="1" />
+      <File FileName="Core/Jobs/Bard.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Core/Jobs/BlackMage.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Core/Jobs/Monk.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Core/Jobs/Warrior.cs" Line="21" Column="6" NotebookId="1" />
+      <File FileName="Core/Jobs/WhiteMage.cs" Line="22" Column="1" NotebookId="1" />
       <File FileName="Core/Jobs/Summoner.cs" Line="12" Column="260" NotebookId="1" />
+      <File FileName="Core/Jobs/Paladin.cs" Line="3" Column="23" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +27,7 @@
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>
-            <Node name="Core">
+            <Node name="Core" expanded="True">
               <Node name="Actions" expanded="True">
                 <Node name="CasterAbilities" expanded="True" />
                 <Node name="DefensiveSpells" expanded="True" />
@@ -41,9 +37,7 @@
                 <Node name="RangedActions" expanded="True" />
               </Node>
               <Node name="Interfaces" expanded="True" />
-              <Node name="Jobs" expanded="True">
-                <Node name="Summoner.cs" selected="True" />
-              </Node>
+              <Node name="Jobs" expanded="True" />
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="Engine" expanded="True" />
@@ -52,4 +46,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Engine FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
+  <MultiItemStartupConfigurations />
 </Properties>

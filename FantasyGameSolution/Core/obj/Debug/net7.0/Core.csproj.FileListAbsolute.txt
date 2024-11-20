@@ -1,0 +1,5 @@
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Core/obj/Debug/net7.0/Core.sourcelink.json
