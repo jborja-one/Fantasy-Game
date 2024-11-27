@@ -1,0 +1,15 @@
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/bin/Debug/net7.0/Engine.deps.json
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/bin/Debug/net7.0/Engine.dll
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/bin/Debug/net7.0/Engine.pdb
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/bin/Debug/net7.0/Core.dll
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/bin/Debug/net7.0/Core.pdb
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.csproj.AssemblyReference.cache
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.AssemblyInfoInputs.cache
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.AssemblyInfo.cs
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.csproj.CoreCompileInputs.cache
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.csproj.CopyComplete
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.dll
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/refint/Engine.dll
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/Engine.pdb
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/Engine/obj/Debug/net7.0/ref/Engine.dll

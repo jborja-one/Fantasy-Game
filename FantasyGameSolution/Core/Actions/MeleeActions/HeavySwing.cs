@@ -21,7 +21,7 @@ namespace Core.Actions.MeleeActions
             }
 
             //Job check
-            if (character.Job.Name != "Black Mage")
+            if (character.Job.Name != "Warrior")
             {
                 Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Warriors can use this Action.");
                 return false;

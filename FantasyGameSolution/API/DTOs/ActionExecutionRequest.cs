@@ -1,0 +1,1 @@
+﻿using System;namespace API.DTOs{    public class ActionExecutionRequest    {        public int CharacterId { get; set; } // The ID of the character performing the action        public string ActionName { get; set; } // The name of the action to be executed    }}

@@ -1,0 +1,1 @@
+﻿using System;namespace API.DTOs{    public class JobDto    {        public string Name { get; set; }        public string Description { get; set; }        public List<ActionDto> Actions { get; set; }        public List<AbilityDto> Ability { get; set; }        public List<SpellDto> Spell { get; set; }    }}

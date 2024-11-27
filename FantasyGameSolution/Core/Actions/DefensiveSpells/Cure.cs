@@ -40,6 +40,7 @@ namespace Core.Actions.DefensiveSpells
             return true;
         }
 
+
         public int Execute (Character target)
         {
             if(CanPerform(target))

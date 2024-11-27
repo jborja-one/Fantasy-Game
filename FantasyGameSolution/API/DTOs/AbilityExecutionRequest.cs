@@ -1,0 +1,1 @@
+﻿using System;namespace API.DTOs{    public class AbilityExecutionRequest    {        public int CharacterId { get; set; } // The ID of the character performing the action        public string AbilityName { get; set; } // The name of the action to be executed    }}
