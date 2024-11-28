@@ -4,25 +4,26 @@ namespace Core.Models
 {
 	public class Character
 	{
+		public int CharacterId { get; set; }
 		public string Name { get; set; }
 		public int Health { get; set; }
 		public int Attack { get; set; }
 		public int Defense { get; set; }
 		public int Mana { set; get; }
-		public int Level { get; set; }
-		public Job Job { get; set; }
-		public List<IAction> Actions { get; set; }
+		public int Level { get; set; }		
+		public int JobId { get; set; }
+		
 
-		public Character(string name, int health, int attack, int defense, Job job)
+		public Character(int characterId, string name, int health, int attack, int defense, int jobId)
 		{
+			CharacterId = characterId;
 			Name = name;
 			Health = health;
 			Attack = attack;
-            Defense = defense;
-			Job = job;
+            Defense = defense;		
+			JobId = jobId;
 			Level = 1;
-			Mana = Mana;
-			Actions = new List<IAction>();
+			Mana = Mana;			
 		}
 
 		public void TakeDamage(int damage)

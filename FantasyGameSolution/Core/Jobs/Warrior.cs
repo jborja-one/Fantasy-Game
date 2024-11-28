@@ -7,8 +7,9 @@ namespace Core.Jobs
 {
 	public class Warrior : Job
 	{
-		public Warrior(string name, string description) : base(name, description)
+		public Warrior(int jobId, string name, string description) : base(jobId, name, description)
 		{
+			JobId = 6;
 			Name = "Warrior";
 			Description = "On the northernmost edge of Abalathia's Spine exists a mountain tribe renowned for producing fearsome mercenaries. Wielding greataxes and known as warriors, these men and women learn to harness their inner-beasts and translate that power to unbridled savagery on the battlefield.";
 			Actions = new List<IAction>

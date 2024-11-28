@@ -21,12 +21,12 @@ namespace Core.Actions.CasterAbilities
                 Console.WriteLine($"{Name} is on cooldown.");
             }
 
-            //Job check
-            if (character.Job.Name != "Black Mage" || character.Job.Name != "WhiteMage")
-            {
-                Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Magic users can use this Ability.");
-                return false;
-            }
+            ////Job check
+            //if (character.Job.Name != "Black Mage" || character.Job.Name != "WhiteMage")
+            //{
+            //    Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Magic users can use this Ability.");
+            //    return false;
+            //}
 
             //level check
             if (character.Level < RequiredLevel)
@@ -49,7 +49,7 @@ namespace Core.Actions.CasterAbilities
             {
                 int originalCastTime = spell.CastTime;
                 spell.CastTime = 0;
-                spell.Execute(character);
+                //spell.Execute(character);
                 spell.CastTime = originalCastTime;
                 LastUsed = DateTime.Now;
                 return true;

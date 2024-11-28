@@ -20,12 +20,12 @@ namespace Core.Actions.MeleeActions
                 Console.WriteLine($"{Name} is on cooldown.");
             }
 
-            //Job check
-            if (character.Job.Name != "Warrior")
-            {
-                Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Warriors can use this Action.");
-                return false;
-            }
+            ////Job check
+            //if (character.Job.Name != "Warrior")
+            //{
+            //    Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Warriors can use this Action.");
+            //    return false;
+            //}
 
             //level check
             if (character.Level < RequiredLevel)

@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Services/JobService.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Models/CharacterRepository.cs">
     <Files>
-      <File FileName="API/Models/JobService.cs" Line="42" Column="1" />
-      <File FileName="API/DTOs/ActionDto.cs" Line="1" Column="1" />
-      <File FileName="API/Controllers/JobsController.cs" Line="29" Column="1" />
-      <File FileName="API/DTOs/JobDto.cs" Line="14" Column="1" NotebookId="1" />
-      <File FileName="API/DTOs/AbilityDto.cs" Line="14" Column="1" NotebookId="1" />
-      <File FileName="API/Controllers/ActionsController.cs" Line="9" Column="51" NotebookId="1" />
-      <File FileName="API/Controllers/AbilityController.cs" Line="38" Column="1" NotebookId="1" />
-      <File FileName="API/Controllers/SpellController.cs" Line="33" Column="31" NotebookId="1" />
-      <File FileName="API/Services/AbilityService.cs" Line="40" Column="1" NotebookId="1" />
-      <File FileName="API/Services/SpellService.cs" Line="26" Column="34" NotebookId="1" />
-      <File FileName="API/Models/ActionService.cs" Line="20" Column="14" NotebookId="1" />
-      <File FileName="Core/Actions/PhysicalAbilities/Rampart.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="API/Program.cs" Line="78" Column="47" />
+      <File FileName="API/Controllers/AbilityController.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/ActionsController.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/JobsController.cs" Line="1" Column="1" />
+      <File FileName="API/Services/JobService.cs" Line="20" Column="26" />
+      <File FileName="API/Models/CharacterRepository.cs" Line="8" Column="6" />
+      <File FileName="API/Services/AbilityService.cs" Line="1" Column="1" />
+      <File FileName="API/DTOs/SpellDto.cs" Line="1" Column="1" />
+      <File FileName="API/DTOs/JobDto.cs" Line="10" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,14 +30,19 @@
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
-            <Node name="Core" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="Actions" expanded="True">
+                <Node name="CasterAbilities" expanded="True" />
+                <Node name="PhysicalAbilities" expanded="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

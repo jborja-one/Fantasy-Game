@@ -23,12 +23,12 @@ namespace Core.Actions.OffensiveSpells
 				Console.WriteLine($"{Name} is on cooldown.");
 			}
 
-			//Job check
-			if(character.Job.Name != "Black Mage")
-			{
-				Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Black Mages can cast this spell.");
-				return false;
-			}
+			////Job check
+			//if(character.Job.Name != "Black Mage")
+			//{
+			//	Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Black Mages can cast this spell.");
+			//	return false;
+			//}
 
 			//level check
 			if(character.Level < RequiredLevel)

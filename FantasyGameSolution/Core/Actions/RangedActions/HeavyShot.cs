@@ -20,12 +20,12 @@ namespace Core.Actions.RangedActions
                 Console.WriteLine($"{Name} is on cooldown.");
             }
 
-            //Job check
-            if (character.Job.Name != "Bard")
-            {
-                Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Bards can use this Action.");
-                return false;
-            }
+            ////Job check
+            //if (character.Job.Name != "Bard")
+            //{
+            //    Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Bards can use this Action.");
+            //    return false;
+            //}
 
             //level check
             if (character.Level < RequiredLevel)

@@ -21,12 +21,12 @@ namespace Core.Actions.PhysicalAbilities
                 Console.WriteLine($"{Name} is on cooldown.");
             }
 
-            //Job check
-            if (character.Job.Name != "Warrior" || character.Job.Name != "Paladin")
-            {
-                Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Tanks can use this Ability.");
-                return false;
-            }
+            ////Job check
+            //if (character.Job.Name != "Warrior" || character.Job.Name != "Paladin")
+            //{
+            //    Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only Tanks can use this Ability.");
+            //    return false;
+            //}
 
             //level check
             if (character.Level < RequiredLevel)

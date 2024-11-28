@@ -22,12 +22,12 @@ namespace Core.Actions.DefensiveSpells
                 Console.WriteLine($"{Name} is on cooldown.");
             }
 
-            //Job check
-            if (character.Job.Name != "Black Mage")
-            {
-                Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only White Mages can cast this spell.");
-                return false;
-            }
+            ////Job check
+            //if (character.Job.Name != "Black Mage")
+            //{
+            //    Console.WriteLine($"{character.Job.Name} cannot use {Name}. Only White Mages can cast this spell.");
+            //    return false;
+            //}
 
             //level check
             if (character.Level < RequiredLevel)

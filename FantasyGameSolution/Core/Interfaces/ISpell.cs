@@ -12,7 +12,7 @@ namespace Core.Interfaces
         int Potency { get; set; }
         int RequiredLevel { get; set; }
         DateTime? LastUsed { get; set; }
-        bool CanPerform(Character character);
-        int Execute(Character target);
+        //bool CanPerform(Character character);
+        //int Execute(Character target);
     }
 }
