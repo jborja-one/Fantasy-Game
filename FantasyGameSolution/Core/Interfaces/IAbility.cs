@@ -12,7 +12,7 @@ namespace Core.Interfaces
         string Effect { get; set; }
         DateTime? LastUsed { get; set; }
         bool CanPerform(Character character);
-        bool Execute(Character target, IAction action);
+        bool Execute(Character target, IAbility ability);
     }
 }
 

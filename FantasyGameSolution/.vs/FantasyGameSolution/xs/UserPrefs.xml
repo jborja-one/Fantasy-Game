@@ -2,55 +2,41 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Services/JobService.cs">
     <Files>
-      <File FileName="Core/Actions/CasterAbilities/SwiftCast.cs" />
-      <File FileName="Core/Actions/DefensiveSpells/Cure.cs" />
-      <File FileName="Core/Actions/MeleeActions/HeavySwing.cs" />
-      <File FileName="Core/Actions/OffensiveSpells/Fire.cs" />
-      <File FileName="Core/Actions/PhysicalAbilities/Rampart.cs" />
-      <File FileName="Core/Actions/RangedActions/HeavyShot.cs" />
-      <File FileName="Core/Models/Character.cs" />
-      <File FileName="Core/Models/Job.cs" />
-      <File FileName="Core/Models/Player.cs" />
-      <File FileName="API/Controllers/GameController.cs" Line="30" Column="4" />
-      <File FileName="Core/Jobs/Bard.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/BlackMage.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Monk.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Warrior.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/WhiteMage.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Summoner.cs" NotebookId="1" />
-      <File FileName="Core/Jobs/Paladin.cs" NotebookId="1" />
-      <File FileName="API/Program.cs" NotebookId="1" />
-      <File FileName="API/Controllers/PlayerController.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="API/Models/JobService.cs" Line="42" Column="1" />
+      <File FileName="API/DTOs/ActionDto.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/JobsController.cs" Line="29" Column="1" />
+      <File FileName="API/DTOs/JobDto.cs" Line="14" Column="1" NotebookId="1" />
+      <File FileName="API/DTOs/AbilityDto.cs" Line="14" Column="1" NotebookId="1" />
+      <File FileName="API/Controllers/ActionsController.cs" Line="9" Column="51" NotebookId="1" />
+      <File FileName="API/Controllers/AbilityController.cs" Line="38" Column="1" NotebookId="1" />
+      <File FileName="API/Controllers/SpellController.cs" Line="33" Column="31" NotebookId="1" />
+      <File FileName="API/Services/AbilityService.cs" Line="40" Column="1" NotebookId="1" />
+      <File FileName="API/Services/SpellService.cs" Line="26" Column="34" NotebookId="1" />
+      <File FileName="API/Models/ActionService.cs" Line="20" Column="14" NotebookId="1" />
+      <File FileName="Core/Actions/PhysicalAbilities/Rampart.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="FantasyGameSolution" expanded="True">
+            <Node name="Solution Items" expanded="True" />
             <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="GameController.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Actions" expanded="True">
-                <Node name="CasterAbilities" expanded="True" />
-                <Node name="DefensiveSpells" expanded="True" />
-                <Node name="MeleeActions" expanded="True" />
-                <Node name="OffensiveSpells" expanded="True" />
-                <Node name="RangedActions" expanded="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Jobs" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOs" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
-            <Node name="Engine" expanded="True" />
+            <Node name="Core" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

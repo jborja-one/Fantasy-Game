@@ -38,7 +38,7 @@ namespace Core.Actions.PhysicalAbilities
             return true;
         }
 
-        public bool Execute(Character character, IAction action)
+        public bool Execute(Character character, IAbility ability)
         {
             if(!CanPerform(character))
             {

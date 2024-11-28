@@ -38,14 +38,14 @@ namespace Core.Actions.CasterAbilities
             return true;
         }
 
-        public bool Execute(Character character, IAction action)
+        public bool Execute(Character character, IAbility ability)
         {
             if(!CanPerform(character))
             {
                 return false;
             }
 
-            if(action is ISpell spell)
+            if(ability is ISpell spell)
             {
                 int originalCastTime = spell.CastTime;
                 spell.CastTime = 0;

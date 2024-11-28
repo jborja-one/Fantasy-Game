@@ -1,4 +1,4 @@
-﻿Pusing System;
+﻿using System;
 namespace API.Controllers
 {
 	public class PlayerController
