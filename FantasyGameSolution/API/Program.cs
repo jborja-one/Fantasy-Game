@@ -39,6 +39,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure services
 ConfigureServices(builder.Services, builder.Configuration);
 
+// Add database connection
+builder.Services.AddScoped<IDbConnection>((s) =>
+{
+    IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"));
+    conn.Open();
+    return conn;
+});
+
+
 var app = builder.Build();
 
 // Configure middleware
@@ -68,7 +77,4 @@ static void ConfigureServices(IServiceCollection services, IConfiguration config
     services.AddScoped<SpellService>();
     services.AddScoped<CharacterRepository>();
 
-    // Add database connection
-    string connString = configuration.GetConnectionString("DefaultConnection");
-    services.AddScoped<IDbConnection>(sp => new MySqlConnection(connString));
 }
