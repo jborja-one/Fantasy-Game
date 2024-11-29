@@ -1,11 +1,1 @@
-﻿using System;
-namespace API.Controllers
-{
-	public class PlayerController
-	{
-		public PlayerController()
-		{
-		}
-	}
-}
-
+﻿using System;using System.Collections.Generic;using System.Linq;using System.Threading.Tasks;using API.Models;using Core.Models;using Microsoft.AspNetCore.Mvc;// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860namespace API.Controllers{    [ApiController]    [Route("api/[controller]")]    public class PlayerController : ControllerBase    {        private readonly PlayerRepository repo;        public PlayerController(PlayerRepository repo)        {            this.repo = repo;        }        //GET: api/player/{playerId}        [HttpGet("{playerId}")]        public IActionResult GetPlayerById(int playerId)        {            var player = repo.GetPlayerById(playerId);            return Ok(player);        }        //GET: api/player        [HttpGet]        public IActionResult GetAllPlayers()        {            var players = repo.GetAllPlayers();            return Ok(players);        }        //POST: api/character        [HttpPost("createplayer")]        public IActionResult CreatePlayer(Player playerToCreate)        {            var player = repo.CreatePlayer(playerToCreate);            return Ok(player);        }    }}

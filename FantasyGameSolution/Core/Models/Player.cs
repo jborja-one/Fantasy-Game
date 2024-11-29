@@ -3,16 +3,17 @@ namespace Core.Models
 {
 	public class Player
 	{
-		public string PlayerId { get; set; }
+		public int PlayerId { get; set; }
 		public string Name { get; set; }	
-		public Job Job { get; set; }
+		public int CharacterId { get; set; }
 		public string Status { get; set; }
 
-		public Player(string playerId, string name, Job job)
+		public Player () { }
+
+		public Player(int playerId, string name)
 		{
 			PlayerId = playerId;
-			Name = name;
-			Job = job;			
+			Name = name;				
 			Status = "Active";
 		}
 	}
