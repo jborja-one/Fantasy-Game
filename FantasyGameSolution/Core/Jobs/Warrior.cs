@@ -7,7 +7,7 @@ namespace Core.Jobs
 {
 	public class Warrior : Job
 	{
-		public Warrior(int jobId, string name, string description) : base(jobId, name, description)
+		public Warrior() { }        public override void Initialize()        
 		{
 			JobId = 6;
 			Name = "Warrior";
@@ -15,8 +15,7 @@ namespace Core.Jobs
 			Actions = new List<IAction>
 			{
 				new HeavySwing()
-			};
-			Abilities = new List<IAbility>			{
+			};			Abilities = new List<IAbility>			{
 				new Rampart()
 			};
 		}

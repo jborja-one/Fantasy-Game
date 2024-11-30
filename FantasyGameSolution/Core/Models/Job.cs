@@ -10,16 +10,17 @@ namespace Core.Models
         public List<IAbility> Abilities { get; set; }
         public List<IAction> Actions { get; set; }
         public List<ISpell> Spells { get; set; }
+        public abstract void Initialize();
 
-        public Job(int jobId, string name, string description)
-        {
-            JobId = jobId;
-            Name = name;
-            Description = description;
-            Abilities = new List<IAbility>();
-            Actions = new List<IAction>();
-            Spells = new List<ISpell>();
-        }
+        //public Job(int jobId, string name, string description)
+        //{
+        //    JobId = jobId;
+        //    Name = name;
+        //    Description = description;
+        //    Abilities = new List<IAbility>();
+        //    Actions = new List<IAction>();
+        //    Spells = new List<ISpell>();
+        //}
     }
 }
 

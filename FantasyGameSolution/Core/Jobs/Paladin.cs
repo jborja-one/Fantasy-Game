@@ -7,7 +7,8 @@ namespace Core.Jobs
 {
 	public class Paladin : Job
 	{
-		public Paladin(int jobId, string name, string description) : base(jobId, name, description)
+		public Paladin() { }
+		public override void Initialize()
 		{
 			JobId = 4;
 			Name = "Paladin";
