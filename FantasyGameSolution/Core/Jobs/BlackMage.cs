@@ -13,11 +13,20 @@ namespace Core.Jobs
 			Description = "In days long past, there existed an occult and arcane art known as black magic—a potent magic of pure destructive force born forth by a sorceress of unparalleled power.";
 			Spells = new List<ISpell>
 			{
-                new Fire()
+                new Fire(),
+				new Blizzard(),
+				new Thunder(),
+				new Scathe(),
+				new FireII(),
+				new BlizzardII(),
+				new Freeze(),
+				new Flare()
 			};
 			Abilities = new List<IAbility>
 			{
-				new SwiftCast()
+				new SwiftCast(),
+				new Transpose(),
+				new Manaward()
 			};
 		}
 	}

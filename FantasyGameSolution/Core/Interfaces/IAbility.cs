@@ -11,8 +11,6 @@ namespace Core.Interfaces
         int RequiredLevel { get; set; }
         string Effect { get; set; }
         DateTime? LastUsed { get; set; }
-        bool CanPerform(Character character);
-        bool Execute(Character target, IAbility ability);
     }
 }
 

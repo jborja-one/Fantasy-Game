@@ -13,10 +13,15 @@ using Core.Actions.PhysicalAbilities;namespace Core.Jobs
 			{
 				new HeavyShot(),
 				new StraightShot(),
-				new BloodLetter()
+				new BloodLetter(),
+				new Sidewinder(),
+				new EmpyrealArrow(),
+				new BurstArrow(),
+				new RefulgentArrow()
 			};
 			Abilities = new List<IAbility>			{
-				new RagingStrikes()
+				new RagingStrikes(),
+				new Troubadour(),
 			};
 		}
 	}

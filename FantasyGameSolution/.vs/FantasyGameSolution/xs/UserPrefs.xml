@@ -1,39 +1,20 @@
 ﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
-  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Warrior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Summoner.cs">
     <Files>
-      <File FileName="API/Services/JobService.cs" Line="83" Column="25" />
-      <File FileName="Core/Jobs/Paladin.cs" Line="11" Column="3" />
-      <File FileName="Core/Jobs/Summoner.cs" Line="11" Column="9" />
-      <File FileName="Core/Jobs/WhiteMage.cs" Line="23" Column="20" />
-      <File FileName="Core/Models/Job.cs" Line="13" Column="43" NotebookId="1" />
-      <File FileName="Core/Jobs/Bard.cs" Line="11" Column="9" NotebookId="1" />
-      <File FileName="Core/Jobs/Monk.cs" Line="10" Column="9" NotebookId="1" />
-      <File FileName="Core/Jobs/BlackMage.cs" Line="12" Column="9" NotebookId="1" />
-      <File FileName="Core/Jobs/Warrior.cs" Line="22" Column="18" NotebookId="1" />
+      <File FileName="Core/Jobs/Summoner.cs" Line="23" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="FantasyGameSolution" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Actions" expanded="True">
-                <Node name="CasterAbilities" expanded="True" />
+            <Node name="Core">
+              <Node name="Actions">
+                <Node name="DefensiveSpells" expanded="True" />
               </Node>
-              <Node name="Jobs" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Jobs" expanded="True">
+                <Node name="Summoner.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -41,4 +22,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
