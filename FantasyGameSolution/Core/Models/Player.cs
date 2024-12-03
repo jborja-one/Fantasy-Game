@@ -10,11 +10,12 @@ namespace Core.Models
 
 		public Player () { }
 
-		public Player(int playerId, string name)
+		public Player(int playerId, string name, int characterId)
 		{
 			PlayerId = playerId;
 			Name = name;				
 			Status = "Active";
+			CharacterId = characterId;
 		}
 	}
 }

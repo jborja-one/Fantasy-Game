@@ -11,7 +11,7 @@ namespace Core.Models
 		public int Defense { get; set; }
 		public int Mana { set; get; }
 		public int Level { get; set; }		
-		public int JobId { get; set; }		public Character() { }
+		public int JobId { get; set; }		public int PlayerId { get; set; }		public Character() { }
 
 		public Character(int characterId, string name, int health, int attack, int defense, int jobId)
 		{
