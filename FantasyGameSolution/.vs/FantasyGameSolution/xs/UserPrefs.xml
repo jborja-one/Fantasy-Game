@@ -1,31 +1,36 @@
 ﻿<Properties StartupConfiguration="{CFD53265-082A-4084-8166-55BD8BAB49FB}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Jobs/Summoner.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Models/Player.cs">
     <Files>
-      <File FileName="Core/Jobs/Summoner.cs" Line="23" Column="1" />
+      <File FileName="API/Controllers/PlayerController.cs" Line="63" Column="32" />
+      <File FileName="API/Models/CharacterRepository.cs" Line="29" Column="151" />
+      <File FileName="API/Controllers/CharacterController.cs" Line="54" Column="32" />
+      <File FileName="API/Models/PlayerRepository.cs" Line="29" Column="134" NotebookId="1" />
+      <File FileName="Core/Models/Player.cs" Line="10" Column="1" NotebookId="1" />
+      <File FileName="Core/Models/Character.cs" Line="14" Column="33" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="FantasyGameSolution" expanded="True">
-            <Node name="Core">
-              <Node name="Actions">
-                <Node name="DefensiveSpells" expanded="True" />
-              </Node>
-              <Node name="Jobs" expanded="True">
-                <Node name="Summoner.cs" selected="True" />
-              </Node>
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

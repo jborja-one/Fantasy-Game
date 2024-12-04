@@ -43,4 +43,5 @@ static void ConfigureServices(IServiceCollection services, IConfiguration config
     services.AddScoped<SpellService>();
     services.AddScoped<CharacterRepository>();
     services.AddScoped<PlayerRepository>();
+    services.AddScoped<UserRepository>();
 }

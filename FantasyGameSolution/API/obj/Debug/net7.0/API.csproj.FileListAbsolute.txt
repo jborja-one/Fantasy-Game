@@ -62,3 +62,4 @@
 /Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll
 /Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
 /Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/Users/borjas/Documents/True Coders/FantasyGame/FantasyGameSolution/API/bin/Debug/net7.0/BCrypt.Net-Next.dll
